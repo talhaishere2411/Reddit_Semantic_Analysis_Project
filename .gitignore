@@ -16,6 +16,7 @@ Thumbs.db
 
 # Documentation files (temporary markdown and reports)
 *.md
+!README.md
 *.pdf
 *.docx
 *.doc
