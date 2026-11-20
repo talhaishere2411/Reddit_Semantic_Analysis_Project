@@ -1,0 +1,59 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.class
+.venv/
+venv/
+env/
+ENV/
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Documentation files (temporary markdown and reports)
+*.md
+*.pdf
+*.docx
+*.doc
+
+# Dataset files and directories
+data/
+*.jsonl
+*.parquet
+*.csv
+posts_parquet/
+
+# Spark temporary files
+spark_tmp/
+metastore_db/
+derby.log
+
+# Keep output folders but ignore their contents (optional)
+# If you want to track outputs, comment these out
+# output/*
+# output_ai/*
+# !output/.gitkeep
+# !output_ai/.gitkeep
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+*.log
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

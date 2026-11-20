@@ -1,0 +1,43 @@
+{
+  "master": "local[1]",
+  "fraction": 0.5,
+  "rows_raw": 1923297,
+  "rows_clean": 1891976,
+  "retained_pct": 98.37,
+  "stage_seconds": {
+    "ingest_count": 56.18,
+    "clean_count": 11.29,
+    "vader_label": 419.95,
+    "aggregations": 5.73
+  },
+  "ml": [
+    {
+      "model": "logreg",
+      "vocab": 3000,
+      "accuracy": 0.8204,
+      "weighted_f1": 0.8199,
+      "train_seconds": 202.3
+    },
+    {
+      "model": "naive_bayes",
+      "vocab": 3000,
+      "accuracy": 0.6857,
+      "weighted_f1": 0.6792,
+      "train_seconds": 75.87
+    },
+    {
+      "model": "logreg",
+      "vocab": 5000,
+      "accuracy": 0.8443,
+      "weighted_f1": 0.8439,
+      "train_seconds": 169.79
+    },
+    {
+      "model": "naive_bayes",
+      "vocab": 5000,
+      "accuracy": 0.7001,
+      "weighted_f1": 0.6949,
+      "train_seconds": 74.68
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "posts",
+  "master": "local[*]",
+  "fraction": 1.0,
+  "ai_threshold": 3.0,
+  "rows_raw": 2888325,
+  "rows_clean": 2616810,
+  "retained_pct": 90.6,
+  "stage_seconds": {
+    "ingest_count": 18.69,
+    "clean_count": 10.81,
+    "score_and_label": 2219.87,
+    "aggregations": 13.17
+  }
+}
